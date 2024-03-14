@@ -9,6 +9,7 @@ namespace RepositoryBase
         void Incluir(TEntity entity);
         int Alterar(TEntity entity);
         void Excluir(TEntity entity);
+        List<TEntity> SelecionarTodosAsNoTracking();
 
     }
 }

@@ -7,7 +7,7 @@ using Microsoft.EntityFrameworkCore;
 
 namespace RepositoryBase
 {
-    internal class RepositoryBase<TEntity, TContext> : IDisposable, IRepositoryBase<TEntity, TContext>
+    public class RepositoryBase<TEntity, TContext> : IDisposable, IRepositoryBase<TEntity, TContext>
         where TEntity : class where TContext : DbContext
     {
         private DbContext _db;
@@ -32,6 +32,11 @@ namespace RepositoryBase
         {
             _db.Entry<TEntity>(entity).State = EntityState.Deleted;
             _db.SaveChanges();
+        }
+
+        public List<TEntity> SelecionarTodosAsNoTracking()
+        {
+            return _dbSet.AsNoTracking().ToList();
         }
 
         public void Incluir(TEntity entity)

@@ -1,0 +1,56 @@
+﻿{
+   "CodeGenerationMode": 2,
+   "ContextClassName": "DB_LIVRARIAContext",
+   "ContextNamespace": null,
+   "DefaultDacpacSchema": null,
+   "FilterSchemas": false,
+   "IncludeConnectionString": true,
+   "ModelNamespace": null,
+   "OutputContextPath": null,
+   "OutputPath": "Model",
+   "PreserveCasingWithRegex": true,
+   "ProjectRootNamespace": "Livraria",
+   "Schemas": null,
+   "SelectedHandlebarsLanguage": 2,
+   "SelectedToBeGenerated": 0,
+   "T4TemplatePath": null,
+   "Tables": [
+      {
+         "Name": "[dbo].[tbl_Aluno]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[tbl_atendente]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[tbl_Livros]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[tbl_Pedido]",
+         "ObjectType": 0
+      }
+   ],
+   "UiHint": "victor\\sqlexpress.DB_LIVRARIA.dbo",
+   "UncountableWords": null,
+   "UseBoolPropertiesWithoutDefaultSql": false,
+   "UseDatabaseNames": true,
+   "UseDateOnlyTimeOnly": true,
+   "UseDbContextSplitting": false,
+   "UseFluentApiOnly": true,
+   "UseHandleBars": false,
+   "UseHierarchyId": false,
+   "UseInflector": false,
+   "UseLegacyPluralizer": false,
+   "UseManyToManyEntity": false,
+   "UseNoDefaultConstructor": false,
+   "UseNoNavigations": false,
+   "UseNoObjectFilter": false,
+   "UseNodaTime": false,
+   "UseNullableReferences": false,
+   "UseSchemaFolders": false,
+   "UseSchemaNamespaces": false,
+   "UseSpatial": false,
+   "UseT4": false
+}
